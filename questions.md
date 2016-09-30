@@ -71,7 +71,7 @@ Make a constructor function called taco that takes in 3 parameters: shell, meat,
 Make a constructor function called burrito.  It has a property called percentLeft = 100.  It has a property called eat that is a function.  When eat is invoked it uses context to implicitly subract 25 from the percentLeft on the burrito.
 
 
-# Prototype 1 
+# Prototype 1
 Add prototype function to the array type that doubles the value of every item in the array
 
 # Prototype 2
@@ -86,7 +86,7 @@ When sentenceSmasher is invoked it should take in a parameter called partTwo and
 Write a function called subway.  It takes in one parameter called personName.  
 It needs to keep track of what ingredients the person wants on their sandwhich.
 It needs to do this by returning a function called addIngredient.  
-When addIngredient is invoked it saves that ingredient with previously added ingredients and then returns an object that looks like this (Replace the parts wrapped in <> with correct data): 
+When addIngredient is invoked it saves that ingredient with previously added ingredients and then returns an object that looks like this (Replace the parts wrapped in <> with correct data):
 ```
 {
     orderPerson: <Person name goes here>,
@@ -98,4 +98,4 @@ When addIngredient is invoked it saves that ingredient with previously added ing
 Write a function that takes in 2 parameters.
 If both parameters are the same type an the same value return "Exact match".
 If both parameters have the same value but are different types return "Different types"
-Otherwise return "Different values" 
+Otherwise return "Different values"
